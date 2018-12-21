@@ -1,7 +1,12 @@
- public class SecondMax{
+package src;
+
+/**
+ * Created by ssahoo on 12/17/18.
+ */
+public class FindSecondMax {
   public static void main(String[] args) {
     int nums[] = {12, 13, 1, 10, 34, 1, 34};
-    SecondMax secondMax = new SecondMax();
+    FindSecondMax secondMax = new FindSecondMax();
     secondMax.findSecondMax(nums);
 
   }
@@ -20,3 +25,4 @@
     System.out.println(secondMax);
     return secondMax;
   }
+}

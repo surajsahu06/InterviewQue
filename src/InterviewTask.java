@@ -11,10 +11,7 @@
  * location.
  */
 
-package com.wtu.interview;
-
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
+package src;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -22,18 +19,6 @@ import java.util.Set;
 public class InterviewTask {
 
   public static void main(String[] args) {
-    InterviewTask interviewTask = new InterviewTask();
-    assertNull(interviewTask.modifySentence(null));
-    assertEquals("A6e-A6e", interviewTask.modifySentence("Automotive-Automotive"));
-    assertEquals("1d4c1 cb!a %%%d1f1123", interviewTask.modifySentence("1defabc1 cb!a %%%def1123"));
-    assertEquals("a h1t c6r", interviewTask.modifySentence("a hot character"));
-    assertEquals("at", interviewTask.modifySentence("at"));
-    assertEquals("a2", interviewTask.modifySentence("a2"));
-    assertEquals("x", interviewTask.modifySentence("x"));
-    assertEquals("t2u-is-s3t", interviewTask.modifySentence("tipu-is-smart"));
-    assertEquals("1234567890", interviewTask.modifySentence("1234567890"));
-    assertEquals("a98779079745092740", interviewTask.modifySentence("a98779079745092740"));
-    assertEquals("98779079745092740a", interviewTask.modifySentence("98779079745092740a"));
   }
 
   public String modifySentence(String sentenceToModify) {
